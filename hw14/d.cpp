@@ -9,12 +9,12 @@ int flow_v[1005];
 
 int main()
 {
-    cin>>n>>m;
+    cin >> n >> m;
 
     for (int i = 1; i <= n; i++)
         cin >> flow_v[i];
 
-    long long total = 0; 
+    long long total = 0;
     for (int i = 1; i <= m; i++)
     {
         int u, v;
@@ -23,6 +23,6 @@ int main()
     }
 
     cout << total << endl;
-    
+
     return 0;
 }
